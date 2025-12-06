@@ -85,3 +85,6 @@ async def analyze(
     except Exception as e:
         logging.error(f"Error: {e}")
         raise HTTPException(status_code=500, detail="Model failed")
+
+
+
